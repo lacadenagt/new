@@ -1,0 +1,9 @@
+author:
+  email: "santos.lopez@galileo.edu"
+  url: "https://www.santoslopezt.me"
+excerpt_separator: <!--more-->
+baseurl: ""
+markdown: kramdown
+permalink: /posts/:year/:month/:day/:title
+plugins:
+  - jekyll-feed

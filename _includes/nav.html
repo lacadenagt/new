@@ -1,0 +1,81 @@
+<!-- Representa el menu de las opciones, hace uso del archivo
+_data/navigation.yml, alli se inovan las variables  -->
+<nav class="nav" style="background:#FCFCFC" itemscope itemtype="https://schema.org/SiteNavigationElement">
+  <ul class="nav__list" role="menubar" id="menu" itemprop="name">
+    {% for page in site.data.navigation %}
+      {% if page.name == "Inicio" %}
+        <li class="nav__item">
+          <a itemprop="url" class="nav__link focus--box-shadow"
+            role="menuitem"
+            aria-label="Inicio" href="{{ page.link | relative_url }}" title="{{ page.name }}">
+            {{ page.imagen }}
+          </a>
+        </li>
+      {% else %}
+        <li class="nav__item">
+          <a class="nav__link focus--box-shadow"
+            role="menuitem"
+            aria-label="{{ page.name }}" href="{{ page.link | relative_url }}" title="{{ page.name }}">
+            {{ page.imagen }}
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>
+
+
+<script>
+const menu = document.getElementById('menu'); // selecciona el menú por su id
+const items = menu.getElementsByTagName('li'); // selecciona todos los elementos li del menú
+const currentUrl = location.href;
+
+// agrega la clase "seleccionado" al elemento li correspondiente
+for (let i = 0; i < items.length; i++) {
+  const link = items[i].querySelector('a').href;
+  if (currentUrl === link) {
+    items[i].classList.add('seleccionado');
+    break;
+  }
+}
+
+// agrega un evento clic a cada elemento li
+for (let i = 0; i < items.length; i++) {
+  items[i].addEventListener('click', function() {
+    // elimina la clase "seleccionado" de todos los elementos li
+    for (let j = 0; j < items.length; j++) {
+      items[j].classList.remove('seleccionado');
+    }
+    // agrega la clase "seleccionado" solo al elemento li que se hizo clic
+    this.classList.add('seleccionado');
+    // guarda el estado del botón seleccionado en el almacenamiento local del navegador
+    localStorage.setItem('seleccionado', this.querySelector('a').href);
+  });
+}
+
+// recupera el estado del botón seleccionado desde el almacenamiento local del navegador
+const seleccionado = localStorage.getItem('seleccionado');
+if (seleccionado) {
+  const seleccionadoItem = menu.querySelector(`li a[href="${seleccionado}"]`).parentNode;
+  seleccionadoItem.classList.add('seleccionado');
+}
+</script>
+
+<style>
+.seleccionado a {
+  background-color:#429EFF;
+  color: #fff;
+}
+
+.seleccionado a:hover,
+.seleccionado a:focus {
+  background-color: #429EFF;
+  color: #fff;
+}
+
+.default a {
+  background-color: #fff;
+  color: #000;
+}
+
+</style>

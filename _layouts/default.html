@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+  {% include head.html %}
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJ2JSLQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div class="wrapper" >
+      {% include nav.html %}
+
+      <main class="main">
+        {{ content }}
+      </main>
+	    <!-- AQUI VA EL aside, donde esta la imagen del usuario -->
+	    {% include aside.html %}
+
+    </div>
+    <script src="{{ "/assets/js/jquery-3.6.4.min.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
+</body>
+</html>
