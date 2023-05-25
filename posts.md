@@ -61,7 +61,6 @@ og_description:
 									</span>
 									<a href="blog-detail.html" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
 										Continue Reading
-
 										<i class="fa fa-long-arrow-right m-l-9"></i>
 									</a>
 								</div>
@@ -105,7 +104,6 @@ og_description:
 									</span>
 									<a href="blog-detail.html" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
 										Continue Reading
-
 										<i class="fa fa-long-arrow-right m-l-9"></i>
 									</a>
 								</div>
@@ -115,7 +113,6 @@ og_description:
 						<div class="p-b-63">
 							<a href="blog-detail.html" class="hov-img0 how-pos5-parent">
 								<img src="images/blog-06.jpg" alt="IMG-BLOG">
-
 								<div class="flex-col-c-m size-123 bg9 how-pos5">
 									<span class="ltext-107 cl2 txt-center">
 										16
@@ -150,7 +147,6 @@ og_description:
 									</span>
 									<a href="blog-detail.html" class="stext-101 cl2 hov-cl1 trans-04 m-tb-10">
 										Continue Reading
-
 										<i class="fa fa-long-arrow-right m-l-9"></i>
 									</a>
 								</div>
@@ -246,7 +242,6 @@ og_description:
 										<a href="#" class="stext-116 cl8 hov-cl1 trans-04">
 											Nixon Porter Leather Watch In Tan
 										</a>
-
 										<span class="stext-116 cl6 p-t-20">
 											$17.00
 										</span>
@@ -314,7 +309,6 @@ og_description:
 										<span>
 											February 2018
 										</span>
-
 										<span>
 											(32)
 										</span>
@@ -325,7 +319,6 @@ og_description:
 										<span>
 											January 2018
 										</span>
-
 										<span>
 											(21)
 										</span>
@@ -336,7 +329,6 @@ og_description:
 										<span>
 											December 2017
 										</span>
-
 										<span>
 											(26)
 										</span>
