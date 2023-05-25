@@ -3,18 +3,20 @@ title: Blog
 layout: default
 num_excerpts: 5
 center: true
-description: Explora algunos proyectos de desarrollo de Software realizados por Santos López. Descubre las tecnologías utilizadas, la complejidad y los resultados obtenidos.
-og_description: Explora algunos proyectos de desarrollo de Software realizados por Santos López. Descubre las tecnologías utilizadas, la complejidad y los resultados obtenidos.
----
+description: 
+og_description: 
+---	
 <style>
     .post-title a {
         text-decoration: none;
     }
 </style>
 <br>
-<h2 style="text-align:center" title="Proyectos">Proyectos</h2>
-Tengo una gran variedad de proyectos, algunos son de código abierto y pueden verlo en mi perfil de [Github](https://github.com/santoslopez)
-
+<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image:url('images/bg-02.jpg');">
+<h2 class="ltext-105 cl0 txt-center">
+	Blog
+</h2>
+</section>
 {% for post in site.posts limit:page.num_excerpts %}
 {% include preview.md post=post %}
 {% endfor %}
