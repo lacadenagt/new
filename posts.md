@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Blog
 num_excerpts: 5
 description: Conoce más sobre las herramientas y productos de ferretería en nuestro blog. Encuentra consejos, recomendaciones y tutoriales de uso.
