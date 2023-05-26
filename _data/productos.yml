@@ -4,25 +4,25 @@
   categoria: Tronzadora Bosch
   descripcion: Para cortes de metal, disco de 14 pulgadas. Con garantía.
   srcImagen: images/product-01.jpg
-  tipoProducto: women
+  tipoProductoFiltrar: women
 - name: tronz2
   id: tronz2
   href: "#tronz2"
   categoria: Tronzadora Emtop
   descripcion: Para cortes de metal, disco de 14 pulgadas. Con garantía.
   srcImagen: images/product-02.jpg
-  tipoProducto: men
+  tipoProductoFiltrar: men
 - name: tronz3
   id: tronz3
   href: "#tronz3"
   categoria: Tronzadora Toolcraft
   descripcion: Cortes hasta 45 grados. Producto mexicano con respaldo.
   srcImagen: images/product-03.jpg
-  tipoProducto: watches
+  tipoProductoFiltrar: watches
 - name: tronz3
   id: tronz3
   href: "#tronz3"
   categoria: Tronzadora Toolcraft
   descripcion: Cortes hasta 45 grados. Producto mexicano con respaldo.
   srcImagen: images/product-03.jpg
-  tipoProducto: shoes
+  tipoProductoFiltrar: shoes
