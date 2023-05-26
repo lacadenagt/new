@@ -4,7 +4,8 @@ title: Más herramientas
 description: Descubre las marcas de herramientas eléctricas y maquinarias de alta calidad que ofrecemos en Ferretería La Cadena. Encuentra marcas reconocidas como Toolcraft, Ingco, BBT, Lincoln y más para variedad de trabajos.
 og_description: Descubre las marcas de herramientas eléctricas y maquinarias de alta calidad que ofrecemos en Ferretería La Cadena. Encuentra marcas reconocidas como Toolcraft, Ingco, BBT, Lincoln y más para variedad de trabajos.
 ---
-<h2 title="¿Qué otras marcas de herramientas vendemos?">¿Qué otras marcas de herramientas vendemos?</h2>
+<div class="container" style="margin-top:10%;margin-bottom:10%;margin-right:10%;">
+<h2 class="text-center" title="¿Qué otras marcas de herramientas vendemos?" style="color:blue">¿Qué otras marcas de herramientas vendemos?</h2>
 <section class="section sectionAlinear">
   <header class="section__header text-center">
     <h3 class="section__title" title="Marca Extol"><code>MARCA EXTOL</code></h3>
@@ -28,4 +29,5 @@ Te ofrecemos bombas de agua y generadores eléctricos de gasolina.
   </header>
   En nuestro cuenta de negocio verificado de Google puedes leer los <a class="btn btn-primary" href="https://g.page/lacadenagt" role="button">comentarios</a> de nuestros clientes.
 </section>
+</div>
 <script src="{{ "/assets/js/bootstrap-5.0.2.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
