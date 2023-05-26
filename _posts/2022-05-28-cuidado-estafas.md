@@ -1,6 +1,6 @@
 ---
 title: "Cuidado: Estafadores usan el nombre de Ferretería La Cadena para engañarlos."
-layout: post
+layout: default
 permalink: /cuidado-estafas
 ---
 A todos nuestros clientes y amigos informales que **en los últimos 6 meses hemos detectado que personas ajenas a la empresa utilizan el nombre de Mini ferretería La Cadena** con el próposito de estafar.

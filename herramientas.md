@@ -30,4 +30,4 @@ Te ofrecemos bombas de agua y generadores eléctricos de gasolina.
   En nuestro cuenta de negocio verificado de Google puedes leer los <a class="btn btn-primary" href="https://g.page/lacadenagt" role="button">comentarios</a> de nuestros clientes.
 </section>
 </div>
-<script src="{{ "/assets/js/bootstrap-5.0.2.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
+<script src="{{ "/assets/js/bootstrap5.2.3.bundle.min.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>

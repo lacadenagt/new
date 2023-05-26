@@ -1,6 +1,6 @@
 ---
 title: "Las mejores marcas de herramientas eléctricas"
-layout: post
+layout: default
 permalink: /consejosComprarHerramientasElectricas
 ---
 Todas las personas cuando quieren realizar una compra de algún producto eléctrico algunas veces no tienen idea de **¿Cuál es la mejor opción o herramienta para comprar?**
