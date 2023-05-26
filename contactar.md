@@ -7,5 +7,4 @@ layout: default
 Para comunicaci&oacute;n sobre garant&iacute;as, tipos de pagos, precios, sugerencias o cualquier otra duda.
 <code>Escr&iacute;benos a:</code> 
 <a href="mailto:miniferreterialacadena@gmail.com">miniferreterialacadena@gmail.com</a>
-<>
 </div>
