@@ -16,7 +16,7 @@ og_description:
 <br>
 
 <div class="container">
-    <h2 style="text-align: center" title="herramientas eléctricas">Blog</h2>
+    <h2 style="text-align: center;color:blue" title="herramientas eléctricas">Blog</h2>
     {% for post in site.posts limit:page.num_excerpts %}
     {% include preview.md post=post %}
     {% endfor %}
