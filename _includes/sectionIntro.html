@@ -3,7 +3,7 @@
 		<div class="wrap-slick1">
 			<div class="slick1">
 				{% for page in site.data.encabezadoPrincipal %}
-				<div class="item-slick1" style="background-image: url({{page.srcImagen}});">
+				<div class="item-slick1" style="background-image: url({{page.srcImagen}});" id="{{ page.id }}">
 					<div class="container h-full">
 						<div class="flex-col-l-m h-full p-t-100 p-b-30 respon5">
 							<div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
@@ -25,7 +25,6 @@
 					</div>
 				</div>
 				{% endfor %}
-
 			</div>
 		</div>
 	</section>
