@@ -33,3 +33,10 @@
   descripcion: Cortes hasta 45 grados. Producto mexicano con respaldo.
   srcImagen: images/product-05.jpg
   tipoProductoFiltrar: bag
+- name: tronz6
+  id: tronz6
+  href: "#tronz6"
+  categoria: Tronzadora Toolcraft
+  descripcion: Cortes hasta 45 grados. Producto mexicano con respaldo.
+  srcImagen: images/product-06.jpg
+  tipoProductoFiltrar: women
