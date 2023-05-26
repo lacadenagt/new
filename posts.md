@@ -1,11 +1,10 @@
 ---
-title: Blog
 layout: default
+title: Blog
 num_excerpts: 5
-center: true
-description: 
-og_description: 
----	
+description: Conoce más sobre las herramientas y productos de ferretería en nuestro blog. Encuentra consejos, recomendaciones y tutoriales de uso.
+og_description: Conoce más sobre las herramientas y productos de ferretería en nuestro blog. Encuentra consejos, recomendaciones y tutoriales de uso.
+---
 <style>
     a{
         color:blue;
