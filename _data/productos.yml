@@ -19,10 +19,17 @@
   descripcion: Cortes hasta 45 grados. Producto mexicano con respaldo.
   srcImagen: images/product-03.jpg
   tipoProductoFiltrar: watches
-- name: tronz3
-  id: tronz3
-  href: "#tronz3"
+- name: tronz4
+  id: tronz4
+  href: "#tronz4"
   categoria: Tronzadora Toolcraft
   descripcion: Cortes hasta 45 grados. Producto mexicano con respaldo.
-  srcImagen: images/product-03.jpg
+  srcImagen: images/product-04.jpg
   tipoProductoFiltrar: shoes
+- name: tronz5
+  id: tronz5
+  href: "#tronz5"
+  categoria: Tronzadora Toolcraft
+  descripcion: Cortes hasta 45 grados. Producto mexicano con respaldo.
+  srcImagen: images/product-05.jpg
+  tipoProductoFiltrar: bag
