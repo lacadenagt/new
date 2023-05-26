@@ -9,9 +9,8 @@ layout: default
 {{ content }}
 
 <hr>
-
 <div id="disqus_thread"></div>
-<script  type="text/plain" data-cookiecategory="necessary" defer>
+<script  data-cookiecategory="necessary" defer>
     var disqus_config = function () {
         this.page.url = "{{ site.url }}{{ page.url }}";
         this.page.identifier =  "{{ page.id }}";
@@ -24,9 +23,7 @@ layout: default
     })();
 </script>
 <noscript>Por favor activa JavaScript para ver los<a href="https://disqus.com/?ref_noscript"> comentarios patrocinado por Disqus.</a></noscript>
-
 <hr>
-
 {% if page.previous.url %}
   <a href="{{ page.previous.url }}" class="btn btn-primary" role="button" title="{{ page.title }}">Post anterior</a>
 {% endif %}
