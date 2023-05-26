@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chatbot con Watson Assistant</title>
+  <link rel="stylesheet" type="text/css" href="chat.css">
+</head>
+<body>
+  <div id="chat-container">
+    <div id="chat-icon" onclick="toggleChat()"></div>
+    <div id="chat-window">
+      <div id="chat-header">
+        <h4>Asistente Virtual</h4>
+        <button id="close-button" onclick="toggleChat()">&times;</button>
+      </div>
+      <div id="chat-display"></div>
+      <div id="user-input">
+        <input type="text" id="message-input" placeholder="Escribe tu mensaje...">
+        <button id="send-button" onclick="sendMessage()">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="chat.js"></script>
+</body>
+</html>
+
