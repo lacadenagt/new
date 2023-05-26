@@ -9,7 +9,7 @@ og_description:
 <style>
     .post-title a {
         text-decoration: none;
-    }
+     }
 </style>
 <div class="container" style="margin-top:10%;margin-bottom:10%">
 <h2 class="text-center" title="Blog de Ferretería La Cadena" style="color:red">Blog</h2> 
