@@ -16,9 +16,7 @@ og_description:
 {% for post in site.posts limit:page.num_excerpts %}
 {% include preview.md post=post %}
 {% endfor %}
-
 {% if site.posts.size > page.num_excerpts %}
-
 ## Post antiguos
 <ul>
     {% for post in site.posts offset:page.num_excerpts %}
