@@ -27,17 +27,3 @@ og_description:
     {% endfor %}
 </ul>
 {% endif %}
-<div id="disqus_thread"></div>
-<script  type="text/plain" data-cookiecategory="necessary" defer>
-    var disqus_config = function () {
-        this.page.url = "{{ site.url }}{{ page.url }}";
-        this.page.identifier =  "{{ page.id }}";
-    };
-    (function() {
-    var d = document, s = d.createElement('script');
-    s.src = 'https://lacadenagt.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Por favor activa JavaScript para ver los<a href="https://disqus.com/?ref_noscript"> comentarios patrocinado por Disqus.</a></noscript>

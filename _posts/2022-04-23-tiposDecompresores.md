@@ -1,6 +1,6 @@
 ---
 title: "¿Qué compresor eléctrico comprar?"
-layout: default
+layout: post
 permalink: /tiposCompresores
 ---
 Dependiendo del tipo de trabajo que desempeñas es posible que no tengas que invertir tu dinero en los compresores m&aacute;s caros.
