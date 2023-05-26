@@ -5,8 +5,8 @@ description: Encuentra respuestas a tus preguntas frecuentes sobre herramientas 
 og_description: Encuentra respuestas a tus preguntas frecuentes sobre herramientas y productos de ferretería en nuestro sitio. Conoce más acerca de nuestro horario y formas de pago.
 ---
 <br>
-> ## Preguntas frecuentes
-
+<div class="container" style="margin-top:10%;margin-bottom:10%;margin-right:10%;">
+<h2 class="text-center" title="Contactar a ferreteria La Cadena" style="color:blue">Preguntas frecuentes</h2> 
 Bienvenido, cualquier duda respecto a garant&iacute;as, medios de transporte para realizar envíos, tipos de pago, puedes
 revisar este espacio o puedes contactarnos a nuestras redes sociales o llamarnos directamente. Con gusto te ayudamos a resolver tus inquietudes.
 <div class="accordion" id="accordionExample">
@@ -58,5 +58,6 @@ revisar este espacio o puedes contactarnos a nuestras redes sociales o llamarnos
     </div>
   </div>
   <!-- f-->
+</div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
