@@ -11,7 +11,7 @@ og_description:
         text-decoration: none;
     }
 </style>
-<div class="container" style="margin-top:10%;margin-bottom:10%;margin-right:10%;margin-left:10%">
+<div class="container" style="margin-top:10%;margin-bottom:10%">
 <h2 class="text-center" title="Blog de Ferretería La Cadena" style="color:red">Blog</h2> 
 {% for post in site.posts limit:page.num_excerpts %}
 {% include preview.md post=post %}
