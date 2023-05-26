@@ -1,0 +1,21 @@
+- name: enc1
+  id: enc1
+  href: "#enc"
+  categoria: Tronzadora Bosch
+  descripcion: Para cortes de metal, disco de 14 pulgadas. Con garantía.
+  srcImagen: images/slide-01.jpg
+  tipoProductoFiltrar: women
+- name: enc2
+  id: enc2
+  href: "#enc2"
+  categoria: Tronzadora Emtop
+  descripcion: Para cortes de metal, disco de 14 pulgadas. Con garantía.
+  srcImagen: images/slide-02.jpg
+  tipoProductoFiltrar: men
+- name: enc3
+  id: enc3
+  href: "#enc3"
+  categoria: Tronzadora Toolcraft
+  descripcion: Cortes hasta 45 grados. Producto mexicano con respaldo.
+  srcImagen: images/slide-03.jpg
+  tipoProductoFiltrar: watches
