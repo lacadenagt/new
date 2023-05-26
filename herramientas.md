@@ -4,7 +4,7 @@ title: Más herramientas
 description: Descubre las marcas de herramientas eléctricas y maquinarias de alta calidad que ofrecemos en Ferretería La Cadena. Encuentra marcas reconocidas como Toolcraft, Ingco, BBT, Lincoln y más para variedad de trabajos.
 og_description: Descubre las marcas de herramientas eléctricas y maquinarias de alta calidad que ofrecemos en Ferretería La Cadena. Encuentra marcas reconocidas como Toolcraft, Ingco, BBT, Lincoln y más para variedad de trabajos.
 ---
-<div class="container" style="margin-top:10%;margin-bottom:10%;margin-right:10%;">
+<div class="container" style="margin-top:10%;margin-bottom:10%">
 <h2 class="text-center" title="¿Qué otras marcas de herramientas vendemos?" style="color:blue">¿Qué otras marcas de herramientas vendemos?</h2>
 <section class="section sectionAlinear">
   <header class="section__header text-center">
